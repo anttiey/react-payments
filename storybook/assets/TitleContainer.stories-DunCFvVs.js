@@ -1,4 +1,4 @@
-import{T as i}from"./TitleContainer-CcjptWAL.js";import"./styled-components.browser.esm-BJwir-wm.js";import"./index-CsdIBAqE.js";const m={title:"TitleContainer",component:i},e={args:{title:"제목 표시",subTitle:"부제목 표시"}},t={args:{title:"제목 표시"}};var r,a,s;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
+import{T as i}from"./TitleContainer-DJjyZUFk.js";import"./styled-components.browser.esm-CH1WOJFx.js";import"./index-CsdIBAqE.js";const m={title:"TitleContainer",component:i},e={args:{title:"제목 표시",subTitle:"부제목 표시"}},t={args:{title:"제목 표시"}};var r,a,s;e.parameters={...e.parameters,docs:{...(r=e.parameters)==null?void 0:r.docs,source:{originalSource:`{
   args: {
     title: '제목 표시',
     subTitle: '부제목 표시'

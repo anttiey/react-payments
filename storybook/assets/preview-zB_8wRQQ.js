@@ -1,0 +1,1 @@
+import{j as t,t as r}from"./styled-components.browser.esm-CH1WOJFx.js";import{t as s,G as e}from"./Global.style-flUDtSVS.js";import"./index-CsdIBAqE.js";const i={parameters:{controls:{matchers:{color:/(background|color)$/i,date:/Date$/i}}},decorators:[o=>t.jsxs(r,{theme:s,children:[t.jsx(e,{}),t.jsx(o,{})]})]};export{i as default};
