@@ -1,0 +1,1 @@
+import{r as e}from"./index-CsdIBAqE.js";const f=(r,l)=>{const[u,o]=e.useState(l),[s,i]=e.useState(!1),[t,c]=e.useState(!1);return{value:u,isValid:s,isError:t&&!s,handleValue:a=>{t||c(!0),i(r(a)),o(a)}}};export{f as u};

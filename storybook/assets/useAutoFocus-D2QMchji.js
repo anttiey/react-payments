@@ -1,0 +1,1 @@
+import{r as u}from"./index-CsdIBAqE.js";const l=(s,n)=>{const e=u.useRef([]);return e.current=Array(s).fill(null),{setRef:o=>t=>{e.current[o]=t},moveToNextInput:(o,t)=>{if(o.length===n&&t<s-1){const r=e.current[t+1];r&&r.focus()}}}};export{l as u};
