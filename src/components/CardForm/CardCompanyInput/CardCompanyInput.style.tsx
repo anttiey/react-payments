@@ -5,9 +5,8 @@ export const CardCompanyInputContainer = styled.div`
   padding-bottom: 22px;
 `;
 
-export const SelectedCardCompanyBox = styled.div<{ $isDefault: boolean }>`
+export const SelectedCardCompanyButton = styled.button<{ $isDefault: boolean }>`
   display: flex;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 32px;
@@ -23,34 +22,24 @@ export const SelectedCardCompanyBox = styled.div<{ $isDefault: boolean }>`
   }
 `;
 
-export const CardCompanyOptionList = styled.ul`
-  z-index: 999;
-  position: absolute;
-  top: 38px;
+export const CardCompanyOptionContainer = styled.div`
   width: 100%;
-  border: 1px solid ${({ theme }) => theme.color.primary.light};
-  border-radius: 2px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
   background: #ffffff;
-  font-size: ${({ theme }) => theme.fontSize.base};
-`;
-
-export const CardCompanyOption = styled.li`
-  width: 100%;
-  height: 32px;
-  cursor: pointer;
-
-  &:hover {
-    background: #eeeeee;
-  }
-`;
-
-export const CardCompanyOptionDefault = styled.p`
-  color: ${({ theme }) => theme.color.primary.light};
 `;
 
 export const CardCompanyOptionLabel = styled.label`
-  display: inline-block;
-  width: 100%;
-  height: 100%;
-  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 10px;
+  font-size: 12px;
+
+  img {
+    width: 32px;
+    height: 32px;
+  }
 `;
