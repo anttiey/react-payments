@@ -4,6 +4,7 @@ import { ThemeProvider } from 'styled-components';
 import CardRegistrationPage from './pages/CardRegistrationPage/CardRegistrationPage';
 import CardRegistrationCompletePage from './pages/CardRegistrationCompletePage/CardRegistrationCompletePage';
 import ErrorPage from './pages/ErrorPage/ErrorPage';
+import ModalExamplePage from './pages/ModalExamplePage/ModalExamplePage';
 
 import { ROUTES } from '../src/constants/Routes';
 
@@ -25,6 +26,10 @@ function App() {
       {
         path: ROUTES.ERROR,
         element: <ErrorPage />,
+      },
+      {
+        path: ROUTES.MODAL,
+        element: <ModalExamplePage />,
       },
     ],
     { basename: '/react-payments/' },
