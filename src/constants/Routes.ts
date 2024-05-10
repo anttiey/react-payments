@@ -3,4 +3,5 @@ export const ROUTES = {
   COMPLETE: '/complete',
   ERROR: '/error',
   MODAL: '/modal',
+  HOOK: '/hook',
 } as const;

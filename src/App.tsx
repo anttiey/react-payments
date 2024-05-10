@@ -10,6 +10,7 @@ import { ROUTES } from '../src/constants/Routes';
 
 import theme from './styles/theme';
 import GlobalStyles from './styles/Global.style';
+import HookExamplePage from './pages/HookExamplePage/HookExamplePage';
 
 function App() {
   const router = createBrowserRouter(
@@ -30,6 +31,10 @@ function App() {
       {
         path: ROUTES.MODAL,
         element: <ModalExamplePage />,
+      },
+      {
+        path: ROUTES.HOOK,
+        element: <HookExamplePage />,
       },
     ],
     { basename: '/react-payments/' },

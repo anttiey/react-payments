@@ -54,6 +54,7 @@ export const AgreeTermsContainer = styled.div`
   display: flex;
   flex-direction: column;
   row-gap: 10px;
+  margin: 5px 0;
 `;
 
 export const CheckBoxContainer = styled.div`
